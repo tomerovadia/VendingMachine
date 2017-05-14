@@ -1,3 +1,3 @@
-# All Aboard
+# Vending Machine
 
-__All Aboard__ is a light-weight web application framework that connects to web servers through Rack middleware and replicates Ruby on Rails functionality, including controllers, cookies, routers and views.
+__Vending Machine__ Vending Machine is a basic interface that demonstrates All Aboard, a light-weight web application framework.
