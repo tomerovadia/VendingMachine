@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>AllAboard Internal Server Error</title>
+
+    <style media="screen">
+      h1 {
+        background-color: darkred;
+        color: white;
+        padding: 10px;
+      }
+
+      body {
+        margin: 20px;
+        font-family: Arial;
+      }
+
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <h1><%= e.class %></h1>
+    <p><%= e.message %></p>
+
+    <h3>Stack trace:</h3>
+    <ul>
+      <% e.backtrace.each do |level| %>
+        <li> <%= level %> </li>
+      <% end %>
+    </ul>
+
+  </body>
+
+</html>
