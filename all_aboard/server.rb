@@ -26,5 +26,5 @@ end.to_app
 
 Rack::Server.start(
   app: app,
-  Port: process.env.PORT || 8080
+  Port: ENV['PORT'] || 8080
 )
