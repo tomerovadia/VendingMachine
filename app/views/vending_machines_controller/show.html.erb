@@ -17,7 +17,8 @@
           $.ajax({
             method: 'delete',
             url: `/items/${id}`,
-          });
+          }).then(() => location.reload());
+
         });
 
 
@@ -26,7 +27,7 @@
           $.ajax({
             method: 'delete',
             url: '/vending-machines',
-          });
+          }).then(() => location.reload());
 
         });
 
