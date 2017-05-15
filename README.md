@@ -4,7 +4,7 @@
 
 ## Overview
 
-__Vending Machine__ is a basic interface that demonstrates All Aboard, a light-weight web application framework.
+__Vending Machine__ is a basic interface that demonstrates [All Aboard](https://github.com/tomerovadia/AllAboard), a light-weight web application framework.
 
 It renders a collection of items, each including a name, image, price and id.
 
